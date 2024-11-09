@@ -1,6 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import footer_logo from "../../assets/footer_logo.svg";
+import linkedin from "../../assets/linkedin.png";
+import github_icon from "../../assets/github.png";
+import instagram_icon from "../../assets/instagram.png";
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -17,16 +20,28 @@ const Footer = () => {
           <div className="footer-detail">
             <p>Socials</p>
             <div className="footer-flex">
-              <p>LinkedIn</p>
-              <p>Instagram</p>
-              <p>GitHub</p>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/harsh-rathore-166831234 "
+              >
+                <img src={linkedin} alt="" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/harshrathore0506/"
+              >
+                <img src={instagram_icon} alt="" />
+              </a>
+              <a target="_blank" href="https://github.com/Harshrathore0506/ ">
+                <img src={github_icon} alt="" />
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
         <p>Copyright &copy; 2024 Harsh Rathore all right reserved</p>
-        <p>Desgined by Harsh Rathore</p>
+        <p>Designed by Harsh Rathore</p>
       </div>
     </div>
   );
