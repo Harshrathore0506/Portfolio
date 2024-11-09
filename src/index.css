@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  /* font-optical-sizing: auto; */
+}
+body {
+  color: white;
+  height: 100%;
+  width: 100%;
+  background-image: url("./assets/background2.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+::-webkit-scrollbar {
+  display: none;
+}
