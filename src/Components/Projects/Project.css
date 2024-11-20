@@ -58,6 +58,10 @@
   gap: 15px;
   width: 60%;
 }
+.Project-Desc p a {
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 992px) {
   .Projects {
     margin-top: 25%;

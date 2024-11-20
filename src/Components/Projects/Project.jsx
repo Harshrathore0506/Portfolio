@@ -2,7 +2,7 @@ import React from "react";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import TodoList from "../../assets/TodoList.png";
 import PasswordManager from "../../assets/Password Manager.png";
-import Ecommerce from "../../assets/E-Commerce.png";
+import Ecommerce from "../../assets/E-Commerce1.png";
 
 import "./Project.css";
 const Project = () => {
@@ -42,6 +42,15 @@ const Project = () => {
               </p>
               <p>Technical Requirements:</p>
               <p>HTML TailwindCSS ReactJS NodeJS ExpressJS and MongoDB</p>
+              <p>
+                Link : <b></b>
+                <a
+                  target="_blank"
+                  href="https://e-commerce-frontend-umber.vercel.app/ "
+                >
+                  Click Me
+                </a>
+              </p>
             </div>
           </div>
         </div>
